@@ -5,7 +5,7 @@ Quickly allows you to create one time personal access tokens, that are revoked a
 
  Laravel  | Laravel One Time Token
 :---------|:----------
- 5.4+     | ^0.0.3
+ 5.4+     | ^0.0.4
  
 ## Installation
 
@@ -14,7 +14,7 @@ Install the package through [Composer](http://getcomposer.org/). Edit your proje
     {
 	    "require": {
 	        ........,
-	        "lukepolo/laravel-passport-one-time-token": "^0.0.3"
+	        "lukepolo/laravel-passport-one-time-token": "^0.0.4"
 	    }
     }
 

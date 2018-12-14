@@ -13,8 +13,7 @@ class OneTimeToken
     public function store(Request $request)
     {
         if($request->user()) {
-            return $request->user()->createToken('OneTimeToken', config('one-time-token.scopes'));
-        }
+          return ["access_token" => $request->user()->createToken('OneTimeToken', config('one-time-token.scopes'))->accessToken];        }
 
         return response('Not Authorized.', 401);
     }
