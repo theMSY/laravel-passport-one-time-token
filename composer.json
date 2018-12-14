@@ -1,6 +1,6 @@
 {
-  "name": "lukepolo/laravel-passport-one-time-token",
-  "description": "Gives the ability to create one time tokens easily with Laravel Passport",
+  "name": "theMSY/laravel-passport-one-time-token",
+  "description": "Gives the ability to create one time tokens easily with Laravel Passport. Based on lukepolo/laravel-passport-one-time-token package, just updating passport version.",
   "keywords": [
     "laravel",
     "passport",
@@ -17,7 +17,7 @@
   ],
   "require": {
     "php": ">=5.6",
-    "Laravel/Passport": "^3.0.0"
+    "Laravel/Passport": "~4.0"
   },
   "require-dev": {
     "orchestra/testbench": "~3.0",
