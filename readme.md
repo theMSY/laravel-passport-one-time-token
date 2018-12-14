@@ -5,7 +5,7 @@ Quickly allows you to create one time personal access tokens, that are revoked a
 
  Laravel  | Laravel One Time Token
 :---------|:----------
- 5.4+     | ^0.0.4
+ 5.4+     | dev-master
  
 ## Installation
 
@@ -14,7 +14,7 @@ Install the package through [Composer](http://getcomposer.org/). Edit your proje
     {
 	    "require": {
 	        ........,
-	        "lukepolo/laravel-passport-one-time-token": "^0.0.4"
+	        "lukepolo/laravel-passport-one-time-token": "dev-master"
 	    }
     }
 
@@ -35,10 +35,11 @@ Copy over the configuration file by running the command:
 Out of the box we provided some defaults to get you started.
 
 1. The user must be logged in  
-2. Middlware 
+2. Middleware 
    * The default middleware assumes you are consuming this with 
    `auth:api`. 
    * You can change this in your config
+3. Created at least one Personal Token client. 
 
 
 ### Usage
