@@ -1,5 +1,5 @@
 {
-  "name": "theMSY/laravel-passport-one-time-token",
+  "name": "the-msy/laravel-passport-one-time-token",
   "description": "Gives the ability to create one time tokens easily with Laravel Passport. Based on lukepolo/laravel-passport-one-time-token package, just updating passport version.",
   "keywords": [
     "laravel",
